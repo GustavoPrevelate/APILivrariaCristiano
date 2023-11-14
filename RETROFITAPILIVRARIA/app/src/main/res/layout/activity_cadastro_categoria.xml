@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".Cadastro_Categoria">
+
+    <TextView
+        style="@style/textTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/cadastroCatgoria"
+        />
+
+    <EditText
+        android:id="@+id/txtCategoria"
+        style="@style/editTextForm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/categoria"
+        android:inputType="text"
+        />
+
+    <Button
+        android:id="@+id/btnCadastrarCategoria"
+        style="@style/butonForm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/cadastroCatgoria"
+        />
+
+</androidx.appcompat.widget.LinearLayoutCompat>

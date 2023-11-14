@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">RETROFIT-API-LIVRARIA</string>
+    <string name="cadastroCatgoria">CADASTRO DE CATEGORIA</string>
+    <string name="categoria">CATEGORIA</string>
+    <string name="cadastroLivro">CADASTRO DE LIVRO</string>
+    <string name="titulo">TÍTULO</string>
+    <string name="preco">PREÇO</string>
+    <string name="descricao">DESCRIÇÃO</string>
+    <string name="foto">FOTO</string>
+    <string name="cadastrarLivro">CADASTRAR</string>
+</resources>
